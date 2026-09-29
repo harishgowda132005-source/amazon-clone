@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Amazon Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">amazon<span>.in</span></div>
+
+        <div class="location">
+            📍 Deliver to<br>
+            <b>India</b>
+        </div>
+
+        <div class="search">
+            <select>
+                <option>All</option>
+                <option>Mobiles</option>
+                <option>Electronics</option>
+                <option>Fashion</option>
+            </select>
+
+            <input type="text" placeholder="Search Amazon">
+
+            <button>🔍</button>
+        </div>
+
+        <div class="account">
+            Hello, Sign in<br>
+            <b>Account & Lists</b>
+        </div>
+
+        <div class="orders">
+            Returns<br>
+            <b>& Orders</b>
+        </div>
+
+        <div class="cart">
+            🛒 Cart
+            <span id="cartCount">0</span>
+        </div>
+    </header>
+
+
+    <!-- Menu -->
+    <nav>
+        <span>☰ All</span>
+        <span>Today's Deals</span>
+        <span>Customer Service</span>
+        <span>Registry</span>
+        <span>Gift Cards</span>
+        <span>Sell</span>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h1>Great Deals Everyday</h1>
+            <p>Up to 60% off on selected products</p>
+            <button class="shop">Shop Now</button>
+        </div>
+    </section>
+
+
+    <!-- Categories -->
+    <h2>Shop by Category</h2>
+
+    <section class="categories">
+
+        <div class="category">
+            <h3>Mobiles</h3>
+            <div class="emoji">📱</div>
+            <p>See more</p>
+        </div>
+
+        <div class="category">
+            <h3>Laptops</h3>
+            <div class="emoji">💻</div>
+            <p>See more</p>
+        </div>
+
+        <div class="category">
+            <h3>Fashion</h3>
+            <div class="emoji">👟</div>
+            <p>See more</p>
+        </div>
+
+        <div class="category">
+            <h3>Electronics</h3>
+            <div class="emoji">🎧</div>
+            <p>See more</p>
+        </div>
+
+    </section>
+
+
+    <!-- Products -->
+    <h2>Today's Deals</h2>
+
+    <section class="products">
+
+        <div class="product">
+            <div class="product-img">📱</div>
+            <h3>Smartphone</h3>
+            <p>Latest Android Smartphone</p>
+            <h3>₹19,999</h3>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <div class="product-img">💻</div>
+            <h3>Laptop</h3>
+            <p>Powerful Laptop for Students</p>
+            <h3>₹49,999</h3>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <div class="product-img">🎧</div>
+            <h3>Wireless Headphones</h3>
+            <p>Noise Cancellation Headphones</p>
+            <h3>₹2,499</h3>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <div class="product-img">⌚</div>
+            <h3>Smart Watch</h3>
+            <p>Fitness Smart Watch</p>
+            <h3>₹3,999</h3>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <h3>Amazon Clone</h3>
+        <p>Made for learning HTML, CSS and JavaScript</p>
+        <p>© 2026 Amazon Clone</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
